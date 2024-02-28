@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Inter';
+    src: url("fonts/Inter/Inter-VariableFont_slnt,wght.ttf") format('truetype');
+}
+body {
+    font-family: 'Inter', sans-serif;
+    color: #37474F;
+}
+.base-text-color1{
+    color: #7749F8;
+}
+
+.base-border-color1{
+    border-color: #7749F8;
+}
+.base-bg_color1{
+    background: #7749F8;
+}
+.base-btn1{
+    color: #fff;
+    background: #7749F8;
+    border: solid 2px #7749F8;
+    padding: 1.5% 3%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.base-btn1:hover {
+    color: #7749F8;
+    border: solid 2px #7749F8;
+    background: #fff;
+}
+.base-btn2{
+    color: #7749F8;
+    border: solid 2px #7749F8;
+    background: #fff;
+    padding: 1.5% 3%;
+    font-weight: 600;
+    font-size: 15px;
+}
+.base-btn2:hover {
+    color: #fff;
+    background: #7749F8;
+    border: solid 2px #7749F8;
+}
+
+.linear-gradient {
+    background: linear-gradient(to left,#AED2F9, #C5E0FB , #D090FF);
+}
+section {
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+#header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.default-padding{
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.navbar-brand{
+    color: #263238;
+    font-weight: bold;
+}
+.navbar-nav .nav-link{
+    color: #2B00A3;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: .3rem 1.0rem;
+    margin: 0 1.0rem;
+}
+.navbar-nav .active{
+    color: #7749F8;
+    border-bottom: solid 2px #7749F8;
+}
+.header-phone{
+    margin: 0 1.0rem;
+}
+/*#after-header{*/
+/*    position: absolute;*/
+/*    z-index: -1;*/
+/*    height: 250px;*/
+/*}*/
+/*#hero {*/
+/*    border-radius: 800px/60px;*/
+/*}*/
+h1{
+    font-size: 55px;
+    font-weight: bold;
+    padding: 3% 0;
+    color: #263238;
+}
+h2{
+    font-size: 48px;
+    font-weight: bold;
+    padding: 2% 0;
+    color: #263238;
+}
+p{
+    padding: 2% 0;
+}
+body{
+    font-size: 18px;
+}
+#home-second-sec li{
+    padding: 8px 0;
+
+}
+#home-fourth-sec{
+    background: #F2F6FC;
+}
+#footer{
+    color: #37474F;
+    padding-bottom: 0;
+    background: #F2F6FC;
+}
+.footer-column-head{
+    color: #263238;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.footer-column-link{
+    color: #37474F;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 16px;
+}
+.footer-column-link-purple, .header-purple{
+    color: #7749F8;
+}
+#footer ul{
+    list-style-type: none;
+}
+#footer ul li{
+    padding: 10px 0;
+}
+
+.footer-middle{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.footer-bottom{
+    font-size: 16px;
+    padding: 3% 0;
+    background: #F2F6FC;
+}
+.footer-bottom span {
+    margin: 0 10px;
+}
+.footer-bottom a{
+    color: #37474F;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.children-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-logo{
+    color: #263238;
+    font-weight: 600;
+    font-size: 32px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 20%;
+}
+.navbar-toggler{
+    font-size: 1.5em;
+    border: 1px solid #fff
+}
+#offcanvasNavbar{
+    background: linear-gradient(to left,#AED2F9, #C5E0FB , #D090FF);
+    color: #2B00A3;
+    font-weight: 600;
+}
+
+.service-mini-title{
+    font-size: 23px;
+}
+.service-mini{
+    padding: 0 2%;
+}
+.service-mini-p{
+    font-size: 18px;
+}
+.border-service-mini{
+    border: solid 1px #37474F;
+    border-radius: 10px;
+    padding: 4% 4%;
+}
+.contacts-form p{
+    font-size: 20px;
+    color: #37474F;
+    margin-bottom: 5px;
+}
+.contacts-form input{
+
+    padding: 3% 15px;
+    color: #37474F;
+    border: solid 1px #CED4DA;
+    border-radius: 5px;
+}
+
+.bottom-convex{
+    position: relative;
+}
+
+.bottom-convex::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -70px;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    clip-path: ellipse(55% 50% at 50% 50%);
+
+}
+.bottom-convex-gr-bg{
+    position: relative;
+}
+.bottom-convex-gr-bg::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    z-index: -1;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to left,#AED2F9, #C5E0FB , #D090FF);
+    clip-path: ellipse(55% 50% at 50% 50%);
+}
+#home-fourth-sec {
+    padding-top: 6%;
+
+}#home-third-sec {
+    padding-bottom: 10px;
+
+}
+.service-mini .mini-div{
+    width: 50%;
+}
+.mini-container{
+    display: flex;
+}
+#header .base-btn1{
+    padding: 1% 2%;
+}
+#home-second-sec .base-btn1, #home-third-sec .base-btn1{
+    width: 15%;
+}
+#home-second-sec ul{
+    padding-left: 1rem;
+}
