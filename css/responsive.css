@@ -1,46 +1,101 @@
 @media (min-width: 1600px) {
 
-    .base-btn2, .base-btn1{
+    .base-btn2, .base-btn1 {
         width: 20%;
     }
-    .navbar .base-btn1{
+
+    .navbar .base-btn1 {
         width: 10%;
     }
-    .base-btn1, .base-btn2, body, p{
+
+    .base-btn1, .base-btn2, body, p {
         font-size: 24px;
     }
-    h1{
+
+    h1 {
         font-size: 74px;
     }
-    h2{
+
+    h2 {
         font-size: 64px;
     }
-    .navbar-brand{
-        font-size: 20px;
+
+    .navbar-brand {
+        font-size: 30px;
     }
-    .footer-column-link, .footer-bottom{
+
+    .footer-column-link, .footer-bottom {
         font-size: 21px;
     }
-    iframe{
+
+    iframe {
         height: 60vh;
     }
-    .navbar-expand-lg .navbar-nav .nav-link{
+
+    .navbar-expand-lg .navbar-nav .nav-link {
         padding: 0.3rem 0.5rem;
     }
+
     .header-phone {
         margin: 0 2rem;
     }
+
+    .contacts-form p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .service-mini-title{
+        font-size: 35px;
+    }
+    .service-mini .mini-div{
+        width: 40%;
+    }
+    .service-mini .mini-div2{
+        width: 60%;
+    }
+    .service-mini .mini-div2 img{
+        margin-top: 2rem;
+    }
+    .border-service-mini{
+        padding: 3%;
+    }
 }
+
 @media (max-width: 1599px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding: .3rem 0.5rem;
         margin: 0 1.0rem;
     }
+
+    .contacts-form p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .contacts-form input{
+        font-size: 20px;
+    }
+
 }
 
 @media (min-width: 991px) and (max-width: 1280px) {
-    .footer-bottom{
+    .footer-bottom {
         font-size: 14px;
+    }
+    .contacts-form p{
+        font-size: 19px;
+        font-weight: 400;
+    }
+    .contacts-form input{
+        font-size: 19px;
+    }
+    h2{
+        font-size: 42px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: .3rem 0.2rem;
+        margin: 0 0.5rem;
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -247,4 +302,3 @@
     }
 }
 
-}

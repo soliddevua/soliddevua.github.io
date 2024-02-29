@@ -44,7 +44,7 @@ body {
 }
 
 .linear-gradient {
-    background: linear-gradient(to left,#AED2F9, #C5E0FB , #D090FF);
+    background: linear-gradient(to left,#AED2F9, #C5E0FB, #C5E0FB, #D090FF);
 }
 section {
     padding-top: 5%;
@@ -169,7 +169,7 @@ body{
     border: 1px solid #fff
 }
 #offcanvasNavbar{
-    background: linear-gradient(to left,#AED2F9, #C5E0FB , #D090FF);
+    background: linear-gradient(to left,#AED2F9, #C5E0FB, #C5E0FB, #D090FF);
     color: #2B00A3;
     font-weight: 600;
 }
@@ -178,7 +178,7 @@ body{
     font-size: 23px;
 }
 .service-mini{
-    padding: 0 2%;
+    padding: 0 1%;
 }
 .service-mini-p{
     font-size: 18px;
@@ -230,7 +230,7 @@ body{
     z-index: -1;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to left,#AED2F9, #C5E0FB , #D090FF);
+    background: linear-gradient(to left,#AED2F9, #C5E0FB, #C5E0FB, #D090FF);
     clip-path: ellipse(55% 50% at 50% 50%);
 }
 #home-fourth-sec {
@@ -242,6 +242,7 @@ body{
 }
 .service-mini .mini-div{
     width: 50%;
+    margin: auto;
 }
 .mini-container{
     display: flex;
